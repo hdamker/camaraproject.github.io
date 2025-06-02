@@ -1,13 +1,9 @@
 # camaraproject.github.io
 
-Repository to host the Swagger UI to display API definition files (YAML) in a user friendly way.
+Repository for CAMARA GitHub Pages.
 
-## Notes for editors
+* [/swagger-ui](./swagger-ui) contains code to display CAMARA API definitions in human-readable form. 
 
-swagger-initializer.js has been adapted to reject rendering of any YAML files that are outside the
-CAMARA project.
-
-User Interface can be edited at swagger-ui.css.
 
 For information about the CAMARA project please visit our
 * [Website (camaraproject.org)](https://camaraproject.org)
