@@ -1812,32 +1812,32 @@ const ViewerLib = {
     // Embedded release data (fully enriched from workflow)
     const RELEASE_DATA = {
   "metadata": {
-    "generated": "2026-06-21T17:08:30.763Z",
+    "generated": "2026-07-25T05:32:13.657Z",
     "meta_release": "All",
     "source": "Release Collector v3",
     "landscape_version": "1.1.1"
   },
   "statistics": {
-    "repositories_count": 51,
-    "api_versions_count": 165,
-    "unique_api_names_count": 74,
-    "unique_apis_count": 73,
+    "repositories_count": 52,
+    "api_versions_count": 171,
+    "unique_api_names_count": 77,
+    "unique_apis_count": 76,
     "api_version_maturity": {
       "stable": 28,
-      "initial": 134,
-      "rc": 3
+      "initial": 138,
+      "rc": 5
     },
     "unique_api_maturity": {
       "stable": 10,
-      "initial": 60,
-      "rc": 3
+      "initial": 61,
+      "rc": 5
     },
     "categories": {
       "Computing Services": 10,
       "Communication Quality": 39,
       "Payments and Charging": 11,
-      "Authentication and Fraud Prevention": 49,
-      "Communication Services": 9,
+      "Authentication and Fraud Prevention": 51,
+      "Communication Services": 12,
       "Service Management": 2,
       "Device Information": 19,
       "Location Services": 16
@@ -1944,12 +1944,17 @@ const ViewerLib = {
     "ClickToDial": {
       "releases": [
         {
+          "tag": "r2.1",
+          "date": "2026-07-15T03:28:17Z",
+          "apis_count": 1
+        },
+        {
           "tag": "r1.4",
           "date": "2026-06-01T17:46:34Z",
           "apis_count": 1
         }
       ],
-      "total_apis": 1,
+      "total_apis": 2,
       "unique_apis_count": 1
     },
     "ConnectedNetworkType": {
@@ -2014,6 +2019,11 @@ const ViewerLib = {
     "CustomerInsights": {
       "releases": [
         {
+          "tag": "r3.1",
+          "date": "2026-07-23T16:06:40Z",
+          "apis_count": 1
+        },
+        {
           "tag": "r2.2",
           "date": "2025-09-11T10:31:53Z",
           "apis_count": 1
@@ -2029,7 +2039,7 @@ const ViewerLib = {
           "apis_count": 1
         }
       ],
-      "total_apis": 3,
+      "total_apis": 4,
       "unique_apis_count": 1
     },
     "DedicatedNetworks": {
@@ -2199,6 +2209,17 @@ const ViewerLib = {
       "repository_archived": true,
       "unique_apis_count": 1
     },
+    "IoTDeviceManagement": {
+      "releases": [
+        {
+          "tag": "r1.1",
+          "date": "2026-06-30T07:59:58Z",
+          "apis_count": 1
+        }
+      ],
+      "total_apis": 1,
+      "unique_apis_count": 1
+    },
     "IoTNetworkOptimization": {
       "releases": [
         {
@@ -2310,28 +2331,28 @@ const ViewerLib = {
     "NetworkAccessManagement": {
       "releases": [
         {
+          "tag": "r3.1",
+          "date": "2026-07-24T17:11:46Z",
+          "apis_count": 2
+        },
+        {
           "tag": "r2.1",
           "date": "2026-05-28T15:15:46Z",
           "apis_count": 1
         }
       ],
-      "total_apis": 1,
-      "unique_apis_count": 1
+      "total_apis": 3,
+      "unique_apis_count": 3
     },
     "NetworkInsights": {
       "releases": [
         {
-          "tag": "r1.2",
-          "date": "2026-05-22T03:21:06Z",
-          "apis_count": 2
-        },
-        {
-          "tag": "r1.1",
-          "date": "2026-04-16T01:13:01Z",
+          "tag": "r1.3",
+          "date": "2026-06-25T00:45:46Z",
           "apis_count": 2
         }
       ],
-      "total_apis": 4,
+      "total_apis": 2,
       "unique_apis_count": 2
     },
     "NetworkSliceBooking": {
@@ -2601,6 +2622,11 @@ const ViewerLib = {
     "Tenure": {
       "releases": [
         {
+          "tag": "r3.1",
+          "date": "2026-06-23T12:07:05Z",
+          "apis_count": 1
+        },
+        {
           "tag": "r2.2",
           "date": "2025-09-19T12:07:15Z",
           "apis_count": 1
@@ -2611,7 +2637,7 @@ const ViewerLib = {
           "apis_count": 1
         }
       ],
-      "total_apis": 2,
+      "total_apis": 3,
       "unique_apis_count": 1
     },
     "TrafficInfluence": {
@@ -2628,12 +2654,17 @@ const ViewerLib = {
     "VerifiedCaller": {
       "releases": [
         {
+          "tag": "r2.1",
+          "date": "2026-06-30T06:06:19Z",
+          "apis_count": 2
+        },
+        {
           "tag": "r1.3",
           "date": "2025-09-15T15:00:09Z",
           "apis_count": 2
         }
       ],
-      "total_apis": 2,
+      "total_apis": 4,
       "unique_apis_count": 2
     },
     "WebRTC": {
@@ -3060,6 +3091,35 @@ const ViewerLib = {
       ]
     },
     {
+      "repository": "ClickToDial",
+      "release_tag": "r2.1",
+      "release_date": "2026-07-15T03:28:17Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/ClickToDial/releases/tag/r2.1",
+      "release_type": "pre-release-rc",
+      "src_commit_sha": "f5029cd4c59ce3434c5c8632c57cce1e2b7013f8",
+      "dependencies": {
+        "commonalities_release": "r4.3 (0.8.0)",
+        "identity_consent_management_release": "r4.2 (0.5.0)"
+      },
+      "apis": [
+        {
+          "api_name": "click-to-dial",
+          "api_version": "0.2.0-rc.1",
+          "api_title": "Click to Dial Service",
+          "commonalities": "0.8.0",
+          "maturity": "initial",
+          "portfolio_category": "Communication Services",
+          "website_url": "https://camaraproject.org/click-to-dial/",
+          "tooltip": "Establish web-based communication by clicking an object",
+          "display_name": "Click to Dial Service",
+          "published": true,
+          "canonical_name": "click-to-dial",
+          "first_release": "Spring26"
+        }
+      ]
+    },
+    {
       "repository": "ConnectedNetworkType",
       "release_tag": "r1.2",
       "release_date": "2025-09-16T16:21:44Z",
@@ -3404,6 +3464,35 @@ const ViewerLib = {
           "canonical_name": "customer-insights",
           "first_release": "Spring25",
           "isNew": false
+        }
+      ]
+    },
+    {
+      "repository": "CustomerInsights",
+      "release_tag": "r3.1",
+      "release_date": "2026-07-23T16:06:40Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/CustomerInsights/releases/tag/r3.1",
+      "release_type": "pre-release-rc",
+      "src_commit_sha": "44c1faeaf13f40d10defab1a3aaf330fa96470c1",
+      "dependencies": {
+        "commonalities_release": "r4.3 (0.8.0)",
+        "identity_consent_management_release": "r4.2 (0.5.0)"
+      },
+      "apis": [
+        {
+          "api_name": "customer-insights",
+          "api_version": "0.3.0-rc.1",
+          "api_title": "Customer Insights",
+          "commonalities": "0.8.0",
+          "maturity": "initial",
+          "portfolio_category": "Authentication and Fraud Prevention",
+          "website_url": "https://camaraproject.org/customer-insights/",
+          "tooltip": "Provides an index or scoring related to the user's credit profile",
+          "display_name": "Customer Insights",
+          "published": true,
+          "canonical_name": "customer-insights",
+          "first_release": "Spring25"
         }
       ]
     },
@@ -4292,6 +4381,35 @@ const ViewerLib = {
       ]
     },
     {
+      "repository": "IoTDeviceManagement",
+      "release_tag": "r1.1",
+      "release_date": "2026-06-30T07:59:58Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/IoTDeviceManagement/releases/tag/r1.1",
+      "release_type": "pre-release-alpha",
+      "src_commit_sha": "c924333eba96bbb1b985efc7b24f59a97e5d83e2",
+      "dependencies": {
+        "commonalities_release": "r4.3 (0.8.0)",
+        "identity_consent_management_release": "r4.2 (0.5.0)"
+      },
+      "apis": [
+        {
+          "api_name": "esim-profile-management",
+          "api_version": "0.1.0-alpha.1",
+          "api_title": "eSIM Profile Management API",
+          "commonalities": "0.8.0",
+          "maturity": "initial",
+          "portfolio_category": null,
+          "website_url": null,
+          "tooltip": null,
+          "display_name": "eSIM Profile Management API",
+          "published": true,
+          "canonical_name": "esim-profile-management",
+          "first_release": "Sandbox"
+        }
+      ]
+    },
+    {
       "repository": "IoTNetworkOptimization",
       "release_tag": "r1.1",
       "release_date": "2025-12-11T13:11:28Z",
@@ -4727,66 +4845,66 @@ const ViewerLib = {
       ]
     },
     {
-      "repository": "NetworkInsights",
-      "release_tag": "r1.1",
-      "release_date": "2026-04-16T01:13:01Z",
+      "repository": "NetworkAccessManagement",
+      "release_tag": "r3.1",
+      "release_date": "2026-07-24T17:11:46Z",
       "meta_release": "Independent",
-      "github_url": "https://github.com/camaraproject/NetworkInsights/releases/tag/r1.1",
-      "release_type": "pre-release-alpha",
-      "src_commit_sha": "9295e48f86b3f4c53a7081b52b9b3486622b1e17",
+      "github_url": "https://github.com/camaraproject/NetworkAccessManagement/releases/tag/r3.1",
+      "release_type": "pre-release-rc",
+      "src_commit_sha": "d1b328d2a0c3d614b849f7e578fe8b62709716d1",
       "dependencies": {
-        "commonalities_release": "r4.1 (0.7.0-rc.1)",
+        "commonalities_release": "r4.3 (0.8.0)",
         "identity_consent_management_release": "r4.2 (0.5.0)"
       },
       "apis": [
         {
-          "api_name": "network-health-assessment",
-          "api_version": "0.1.0-alpha.1",
-          "api_title": "Network Health Assessment",
-          "commonalities": "0.7.0-rc.1",
+          "api_name": "network-access-devices",
+          "api_version": "0.3.0-rc.1",
+          "api_title": "Home Devices - Network Access Devices",
+          "commonalities": "0.8.0",
           "maturity": "initial",
           "portfolio_category": null,
           "website_url": null,
           "tooltip": null,
-          "display_name": "Network Health Assessment",
+          "display_name": "Home Devices - Network Access Devices",
           "published": true,
-          "canonical_name": "network-health-assessment",
+          "canonical_name": "network-access-devices",
           "first_release": "Sandbox"
         },
         {
-          "api_name": "network-traffic-analysis",
-          "api_version": "0.1.0-alpha.1",
-          "api_title": "Network Traffic Analysis",
-          "commonalities": "0.7.0-rc.1",
+          "api_name": "network-access-domains",
+          "api_version": "0.3.0-rc.1",
+          "api_title": "Home Devices - Network Access Domains",
+          "commonalities": "0.8.0",
           "maturity": "initial",
           "portfolio_category": null,
           "website_url": null,
           "tooltip": null,
-          "display_name": "Network Traffic Analysis",
+          "display_name": "Home Devices - Network Access Domains",
           "published": true,
-          "canonical_name": "network-traffic-analysis",
+          "canonical_name": "network-access-domains",
           "first_release": "Sandbox"
         }
       ]
     },
     {
       "repository": "NetworkInsights",
-      "release_tag": "r1.2",
-      "release_date": "2026-05-22T03:21:06Z",
+      "release_tag": "r1.3",
+      "release_date": "2026-06-25T00:45:46Z",
       "meta_release": "Independent",
-      "github_url": "https://github.com/camaraproject/NetworkInsights/releases/tag/r1.2",
-      "release_type": "pre-release-rc",
-      "src_commit_sha": "a5e16b7e699069edb36b6eabcc442884516f4213",
+      "github_url": "https://github.com/camaraproject/NetworkInsights/releases/tag/r1.3",
+      "release_type": "public-release",
+      "src_commit_sha": "9f767931d88327b80aa06c63c5405a1b8898a5f3",
       "dependencies": {
-        "commonalities_release": "r4.2 (0.8.0-rc.2)",
+        "commonalities_release": "r4.3 (0.8.0)",
         "identity_consent_management_release": "r4.2 (0.5.0)"
       },
       "apis": [
         {
           "api_name": "network-health-assessment",
-          "api_version": "0.1.0-rc.1",
+          "api_version": "0.1.0",
           "api_title": "Network Health Assessment",
-          "commonalities": "0.8.0-rc.2",
+          "commonalities": "0.8.0",
           "maturity": "initial",
           "portfolio_category": null,
           "website_url": null,
@@ -4798,9 +4916,9 @@ const ViewerLib = {
         },
         {
           "api_name": "network-traffic-analysis",
-          "api_version": "0.1.0-rc.1",
+          "api_version": "0.1.0",
           "api_title": "Network Traffic Analysis",
-          "commonalities": "0.8.0-rc.2",
+          "commonalities": "0.8.0",
           "maturity": "initial",
           "portfolio_category": null,
           "website_url": null,
@@ -6004,6 +6122,35 @@ const ViewerLib = {
       ]
     },
     {
+      "repository": "Tenure",
+      "release_tag": "r3.1",
+      "release_date": "2026-06-23T12:07:05Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/Tenure/releases/tag/r3.1",
+      "release_type": "pre-release-alpha",
+      "src_commit_sha": "2030fccc2fb320c2338b3acd42526f2a5cc5fffd",
+      "dependencies": {
+        "commonalities_release": "r4.3 (0.8.0)",
+        "identity_consent_management_release": "r4.2 (0.5.0)"
+      },
+      "apis": [
+        {
+          "api_name": "kyc-tenure",
+          "api_version": "0.3.0-alpha.1",
+          "api_title": "KYC Tenure",
+          "commonalities": "0.8.0",
+          "maturity": "initial",
+          "portfolio_category": "Authentication and Fraud Prevention",
+          "website_url": "https://camaraproject.org/know-your-customer-tenure/",
+          "tooltip": "Verifying the length of tenure for a mobile user who is bound to a mobile number with their current mobile operator",
+          "display_name": "KYC Tenure",
+          "published": true,
+          "canonical_name": "kyc-tenure",
+          "first_release": "Spring25"
+        }
+      ]
+    },
+    {
       "repository": "TrafficInfluence",
       "release_tag": "r1.3",
       "release_date": "2025-09-16T15:12:23Z",
@@ -6065,6 +6212,49 @@ const ViewerLib = {
           "canonical_name": "verified-caller",
           "first_release": "Fall25",
           "isNew": true
+        }
+      ]
+    },
+    {
+      "repository": "VerifiedCaller",
+      "release_tag": "r2.1",
+      "release_date": "2026-06-30T06:06:19Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/VerifiedCaller/releases/tag/r2.1",
+      "release_type": "pre-release-alpha",
+      "src_commit_sha": "f41f6799a9b64fc33f811aea2b33c0efaa529c86",
+      "dependencies": {
+        "commonalities_release": "r4.3 (0.8.0)",
+        "identity_consent_management_release": "r4.2 (0.5.0)"
+      },
+      "apis": [
+        {
+          "api_name": "brand-registration",
+          "api_version": "0.2.0-alpha.1",
+          "api_title": "Brand Registration",
+          "commonalities": "0.8.0",
+          "maturity": "initial",
+          "portfolio_category": "Communication Services",
+          "website_url": "https://camaraproject.org/brand-registration/",
+          "tooltip": "Register brand for verified communications",
+          "display_name": "Brand Registration",
+          "published": true,
+          "canonical_name": "brand-registration",
+          "first_release": "Fall25"
+        },
+        {
+          "api_name": "verified-caller",
+          "api_version": "0.2.0-alpha.1",
+          "api_title": "Verified Caller",
+          "commonalities": "0.8.0",
+          "maturity": "initial",
+          "portfolio_category": "Communication Services",
+          "website_url": "https://camaraproject.org/verified-caller/",
+          "tooltip": "Show certified information on the phone before a call is answered",
+          "display_name": "Verified Caller",
+          "published": true,
+          "canonical_name": "verified-caller",
+          "first_release": "Fall25"
         }
       ]
     },
@@ -6559,6 +6749,26 @@ const ViewerLib = {
       "release_type": "public-release"
     },
     {
+      "api_name": "click-to-dial",
+      "api_version": "0.2.0-rc.1",
+      "api_title": "Click to Dial Service",
+      "commonalities": "0.8.0",
+      "maturity": "initial",
+      "portfolio_category": "Communication Services",
+      "website_url": "https://camaraproject.org/click-to-dial/",
+      "tooltip": "Establish web-based communication by clicking an object",
+      "display_name": "Click to Dial Service",
+      "published": true,
+      "canonical_name": "click-to-dial",
+      "first_release": "Spring26",
+      "repository": "ClickToDial",
+      "release_tag": "r2.1",
+      "release_date": "2026-07-15T03:28:17Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/ClickToDial/releases/tag/r2.1",
+      "release_type": "pre-release-rc"
+    },
+    {
       "api_name": "connected-network-type",
       "api_version": "0.2.0",
       "api_title": "Connected Network Type",
@@ -6891,6 +7101,26 @@ const ViewerLib = {
       "meta_release": "Fall25",
       "github_url": "https://github.com/camaraproject/CustomerInsights/releases/tag/r2.2",
       "release_type": "public-release"
+    },
+    {
+      "api_name": "customer-insights",
+      "api_version": "0.3.0-rc.1",
+      "api_title": "Customer Insights",
+      "commonalities": "0.8.0",
+      "maturity": "initial",
+      "portfolio_category": "Authentication and Fraud Prevention",
+      "website_url": "https://camaraproject.org/customer-insights/",
+      "tooltip": "Provides an index or scoring related to the user's credit profile",
+      "display_name": "Customer Insights",
+      "published": true,
+      "canonical_name": "customer-insights",
+      "first_release": "Spring25",
+      "repository": "CustomerInsights",
+      "release_tag": "r3.1",
+      "release_date": "2026-07-23T16:06:40Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/CustomerInsights/releases/tag/r3.1",
+      "release_type": "pre-release-rc"
     },
     {
       "api_name": "dedicated-network",
@@ -7832,6 +8062,26 @@ const ViewerLib = {
       "repository_archived": true
     },
     {
+      "api_name": "esim-profile-management",
+      "api_version": "0.1.0-alpha.1",
+      "api_title": "eSIM Profile Management API",
+      "commonalities": "0.8.0",
+      "maturity": "initial",
+      "portfolio_category": null,
+      "website_url": null,
+      "tooltip": null,
+      "display_name": "eSIM Profile Management API",
+      "published": true,
+      "canonical_name": "esim-profile-management",
+      "first_release": "Sandbox",
+      "repository": "IoTDeviceManagement",
+      "release_tag": "r1.1",
+      "release_date": "2026-06-30T07:59:58Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/IoTDeviceManagement/releases/tag/r1.1",
+      "release_type": "pre-release-alpha"
+    },
+    {
       "api_name": "iot-network-optimization",
       "api_version": "0.1.0-alpha.1",
       "api_title": "IoT Network Optimization API",
@@ -8227,6 +8477,46 @@ const ViewerLib = {
       "release_type": "public-release"
     },
     {
+      "api_name": "network-access-devices",
+      "api_version": "0.3.0-rc.1",
+      "api_title": "Home Devices - Network Access Devices",
+      "commonalities": "0.8.0",
+      "maturity": "initial",
+      "portfolio_category": null,
+      "website_url": null,
+      "tooltip": null,
+      "display_name": "Home Devices - Network Access Devices",
+      "published": true,
+      "canonical_name": "network-access-devices",
+      "first_release": "Sandbox",
+      "repository": "NetworkAccessManagement",
+      "release_tag": "r3.1",
+      "release_date": "2026-07-24T17:11:46Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/NetworkAccessManagement/releases/tag/r3.1",
+      "release_type": "pre-release-rc"
+    },
+    {
+      "api_name": "network-access-domains",
+      "api_version": "0.3.0-rc.1",
+      "api_title": "Home Devices - Network Access Domains",
+      "commonalities": "0.8.0",
+      "maturity": "initial",
+      "portfolio_category": null,
+      "website_url": null,
+      "tooltip": null,
+      "display_name": "Home Devices - Network Access Domains",
+      "published": true,
+      "canonical_name": "network-access-domains",
+      "first_release": "Sandbox",
+      "repository": "NetworkAccessManagement",
+      "release_tag": "r3.1",
+      "release_date": "2026-07-24T17:11:46Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/NetworkAccessManagement/releases/tag/r3.1",
+      "release_type": "pre-release-rc"
+    },
+    {
       "api_name": "network-access-management",
       "api_version": "0.2.0-alpha.1",
       "api_title": "Home Devices - Network Access Management",
@@ -8248,9 +8538,9 @@ const ViewerLib = {
     },
     {
       "api_name": "network-health-assessment",
-      "api_version": "0.1.0-alpha.1",
+      "api_version": "0.1.0",
       "api_title": "Network Health Assessment",
-      "commonalities": "0.7.0-rc.1",
+      "commonalities": "0.8.0",
       "maturity": "initial",
       "portfolio_category": null,
       "website_url": null,
@@ -8260,37 +8550,17 @@ const ViewerLib = {
       "canonical_name": "network-health-assessment",
       "first_release": "Sandbox",
       "repository": "NetworkInsights",
-      "release_tag": "r1.1",
-      "release_date": "2026-04-16T01:13:01Z",
+      "release_tag": "r1.3",
+      "release_date": "2026-06-25T00:45:46Z",
       "meta_release": "Independent",
-      "github_url": "https://github.com/camaraproject/NetworkInsights/releases/tag/r1.1",
-      "release_type": "pre-release-alpha"
-    },
-    {
-      "api_name": "network-health-assessment",
-      "api_version": "0.1.0-rc.1",
-      "api_title": "Network Health Assessment",
-      "commonalities": "0.8.0-rc.2",
-      "maturity": "initial",
-      "portfolio_category": null,
-      "website_url": null,
-      "tooltip": null,
-      "display_name": "Network Health Assessment",
-      "published": true,
-      "canonical_name": "network-health-assessment",
-      "first_release": "Sandbox",
-      "repository": "NetworkInsights",
-      "release_tag": "r1.2",
-      "release_date": "2026-05-22T03:21:06Z",
-      "meta_release": "Independent",
-      "github_url": "https://github.com/camaraproject/NetworkInsights/releases/tag/r1.2",
-      "release_type": "pre-release-rc"
+      "github_url": "https://github.com/camaraproject/NetworkInsights/releases/tag/r1.3",
+      "release_type": "public-release"
     },
     {
       "api_name": "network-traffic-analysis",
-      "api_version": "0.1.0-alpha.1",
+      "api_version": "0.1.0",
       "api_title": "Network Traffic Analysis",
-      "commonalities": "0.7.0-rc.1",
+      "commonalities": "0.8.0",
       "maturity": "initial",
       "portfolio_category": null,
       "website_url": null,
@@ -8300,31 +8570,11 @@ const ViewerLib = {
       "canonical_name": "network-traffic-analysis",
       "first_release": "Sandbox",
       "repository": "NetworkInsights",
-      "release_tag": "r1.1",
-      "release_date": "2026-04-16T01:13:01Z",
+      "release_tag": "r1.3",
+      "release_date": "2026-06-25T00:45:46Z",
       "meta_release": "Independent",
-      "github_url": "https://github.com/camaraproject/NetworkInsights/releases/tag/r1.1",
-      "release_type": "pre-release-alpha"
-    },
-    {
-      "api_name": "network-traffic-analysis",
-      "api_version": "0.1.0-rc.1",
-      "api_title": "Network Traffic Analysis",
-      "commonalities": "0.8.0-rc.2",
-      "maturity": "initial",
-      "portfolio_category": null,
-      "website_url": null,
-      "tooltip": null,
-      "display_name": "Network Traffic Analysis",
-      "published": true,
-      "canonical_name": "network-traffic-analysis",
-      "first_release": "Sandbox",
-      "repository": "NetworkInsights",
-      "release_tag": "r1.2",
-      "release_date": "2026-05-22T03:21:06Z",
-      "meta_release": "Independent",
-      "github_url": "https://github.com/camaraproject/NetworkInsights/releases/tag/r1.2",
-      "release_type": "pre-release-rc"
+      "github_url": "https://github.com/camaraproject/NetworkInsights/releases/tag/r1.3",
+      "release_type": "public-release"
     },
     {
       "api_name": "network-slice-assignment",
@@ -9451,6 +9701,26 @@ const ViewerLib = {
       "release_type": "public-release"
     },
     {
+      "api_name": "kyc-tenure",
+      "api_version": "0.3.0-alpha.1",
+      "api_title": "KYC Tenure",
+      "commonalities": "0.8.0",
+      "maturity": "initial",
+      "portfolio_category": "Authentication and Fraud Prevention",
+      "website_url": "https://camaraproject.org/know-your-customer-tenure/",
+      "tooltip": "Verifying the length of tenure for a mobile user who is bound to a mobile number with their current mobile operator",
+      "display_name": "KYC Tenure",
+      "published": true,
+      "canonical_name": "kyc-tenure",
+      "first_release": "Spring25",
+      "repository": "Tenure",
+      "release_tag": "r3.1",
+      "release_date": "2026-06-23T12:07:05Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/Tenure/releases/tag/r3.1",
+      "release_type": "pre-release-alpha"
+    },
+    {
       "api_name": "traffic-influence",
       "api_version": "0.10.0",
       "api_title": "Traffic Influence",
@@ -9493,6 +9763,26 @@ const ViewerLib = {
       "release_type": "public-release"
     },
     {
+      "api_name": "brand-registration",
+      "api_version": "0.2.0-alpha.1",
+      "api_title": "Brand Registration",
+      "commonalities": "0.8.0",
+      "maturity": "initial",
+      "portfolio_category": "Communication Services",
+      "website_url": "https://camaraproject.org/brand-registration/",
+      "tooltip": "Register brand for verified communications",
+      "display_name": "Brand Registration",
+      "published": true,
+      "canonical_name": "brand-registration",
+      "first_release": "Fall25",
+      "repository": "VerifiedCaller",
+      "release_tag": "r2.1",
+      "release_date": "2026-06-30T06:06:19Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/VerifiedCaller/releases/tag/r2.1",
+      "release_type": "pre-release-alpha"
+    },
+    {
       "api_name": "verified-caller",
       "api_version": "0.1.0",
       "api_title": "Verified Caller",
@@ -9512,6 +9802,26 @@ const ViewerLib = {
       "meta_release": "Fall25",
       "github_url": "https://github.com/camaraproject/VerifiedCaller/releases/tag/r1.3",
       "release_type": "public-release"
+    },
+    {
+      "api_name": "verified-caller",
+      "api_version": "0.2.0-alpha.1",
+      "api_title": "Verified Caller",
+      "commonalities": "0.8.0",
+      "maturity": "initial",
+      "portfolio_category": "Communication Services",
+      "website_url": "https://camaraproject.org/verified-caller/",
+      "tooltip": "Show certified information on the phone before a call is answered",
+      "display_name": "Verified Caller",
+      "published": true,
+      "canonical_name": "verified-caller",
+      "first_release": "Fall25",
+      "repository": "VerifiedCaller",
+      "release_tag": "r2.1",
+      "release_date": "2026-06-30T06:06:19Z",
+      "meta_release": "Independent",
+      "github_url": "https://github.com/camaraproject/VerifiedCaller/releases/tag/r2.1",
+      "release_type": "pre-release-alpha"
     },
     {
       "api_name": "webrtc-call-handling",
